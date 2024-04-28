@@ -30,8 +30,12 @@ table {
     color: #D98BB6;
   }
   .recentmissions table thead{
-    font-family: "Jersey 15 Charted", sans-serif;
-    font-weight: bolder;
+    .jersey-15-charted-regular {
+      font-family: "Jersey 15 Charted", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
   }
   .recentmissions table td{
     font-family: "Jersey 15 Charted", sans-serif;
@@ -162,8 +166,12 @@ table {
   }
   /*-----------------------Font styling-------------------------*/
   @font-face {
-      font-family: 'SpaceX';
-      src: url(../font/SpaceX.ttf) format('truetype');
+    .jersey-15-charted-regular {
+      font-family: "Jersey 15 Charted", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
    }
   body {
        margin:0px; 
