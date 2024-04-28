@@ -1,0 +1,503 @@
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+  }
+  
+  
+  .widget-overview table td:nth-child(even) {
+    text-align: right;
+  }
+  
+  .widget-overview table td {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+  }
+  
+  td {
+    display: table-cell;
+    vertical-align: inherit;
+  }
+  .widget-overview table {
+    font-size: 0.8em;
+    border-collapse: collapse;
+  }
+  
+  
+  /*-----------------------history.html table-------------------------*/
+  .recentmissions table{
+    border-collapse:collapse;
+    color: #D98BB6;
+  }
+  .recentmissions table thead{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: bolder;
+  }
+  .recentmissions table td{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-style:italic;
+    text-align: center;
+    border: 2px solid #D98BB6;
+    border-collapse: collapse;
+    padding:10px;
+  }
+  
+  .recentmissions table caption{
+    font-family: "SpaceX";
+    font: size 1.3rem;
+    color: #D98BB6;
+    border-bottom: 2px solid #D98BB6;
+    border-top: 2px solid #D98BB6;
+  }
+  
+  .widgettable {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #recentmissions{
+    padding-top:20px;
+    background: #181c1f;
+  }
+  
+  .recentmissions table tr:nth-child(even){
+    background: #292f36;
+  }
+  
+  .recentmissions table tr:hover{
+    background: #000;
+  }
+  
+  
+  /*-----------------------contact.html-------------------------*/
+  .container .widget ul li a{
+    color:white;
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-style: italic;
+    
+  }
+  
+  .container .widget ul li{
+    padding-bottom: 10px;
+    
+  }
+  
+  .aboutus{
+    color:#D98BB6;
+    text-align: center;
+  }
+  .aboutus p{
+    width:40vw;
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: end;
+    color:#D98BB6;
+  }
+  
+  /*-----------------------dragon.html-------------------------*/
+  #slogan{
+    text-align: center;
+    padding-top:10px;
+    font-size: 1.5rem;
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: bold;
+  }
+  
+  .img-center{
+      border: 1px solid #D98BB6;
+      padding: 2px;
+      margin: 10px 20px 10px 0;
+      transition: 0.25s;
+    }
+  .img-center:hover{
+    box-shadow: 8px 16px 16px #8C3545(128,128,128);
+    transform: scale(1.1);
+  }
+  .img-center + p{
+    font-family: "Jersey 15 Charted", sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #parachutesys p{
+    text-align: center;
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-size: 2.4rem;
+    font-style: italic;
+  }
+
+#embed{
+    margin:20px auto;
+  }
+
+  #parachutesys{
+    max-width:60vw;
+    margin:auto;
+  }
+  
+  /*-------------------------faqs.html-------------------------*/
+  #content{
+    padding:4em 0;
+    margin-left: 20px;
+    margin-right:20px;
+  }
+  #content h3{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-size: 1.2em;
+    border-bottom: 1px solid #8C3545;
+  }
+  
+  #content p{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style:italic;
+  }
+  /*-----------------------Font styling-------------------------*/
+  @font-face {
+      font-family: 'SpaceX';
+      src: url(../font/SpaceX.ttf) format('truetype');
+   }
+  body {
+       margin:0px; 
+       padding:0px; 
+       
+  }
+  
+  /* main */
+  header {
+      height: 360px;
+      z-index: 10;
+  }
+  .header-banner {
+      background-color: #030526;
+      background-image: url(../img/spacexcover\(3\).png);
+      background-position:bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 250px;
+  }
+  
+  header h1 {
+      background-color: #071540;
+      color: #D98BB6;
+      padding: 0 1rem;
+      position: absolute;
+      top: 2rem; 
+      left: 2rem;
+  }
+  h2 {
+    font-family: "SpaceX";
+    display: block;
+    font-size: 1.5em;
+  }
+  .fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; 
+  }
+  
+  nav{
+    width: 100%;
+    background: #181c1f;
+    padding-top:10px;
+    padding-bottom: 20px;
+  }
+  
+  nav .navigation ul {
+    padding-top:10px;
+  }
+  nav ul { 
+      list-style-type: none;
+      margin: 0 2% auto 0;
+      padding-left: 10px;
+      text-align: center;
+      max-width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  nav ul li { 
+      line-height: 20px;
+      margin-left: 20px;
+      font-size: 0.8rem;
+      font-family: 'SpaceX';
+  }
+  nav ul li a {
+      text-decoration: none; 
+      position: relative;
+      color: white;
+      transition: 0.6s;
+      padding: 20px 20px;
+  }
+  
+  nav ul li a:hover{
+      background-color: black;
+      color:white;
+  }
+  
+  
+  #home{
+      color: #8149A6;
+      font-size: 3rem;
+      font-family: 'SpaceX';
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 1px solid #2e0a44;
+      border-top: 1px solid #2e0a44;
+  }
+  
+  .home-tab{
+      font-family:"Jersey 15 Charted", sans-serif;
+      font-style: italic;
+      font-weight: bolder;
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      margin: 10px 10px 20px 20px;
+  }
+  
+  img{
+      max-width:100%;
+      height: 300px;
+      
+    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  
+    section#articles {
+      padding-bottom: 20px;
+      background:#071540;
+    }
+    
+    section#articles .container {
+      margin: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #8C3545;
+      padding: 0 0 2em 0;
+    }
+  
+    section#articles .container h2{
+      border-top:1px solid #D98BB6;
+      border-bottom:1px solid #D98BB6;
+    }
+    
+    section#articles h2,
+    #content h2 {
+      flex: 0 0 100%;
+      color: #292f36;
+      text-align: center;
+      font-family: "SpaceX";
+      font-size: 2em;
+    }
+    
+    section#articles h2 {
+      font-family: "SpaceX";
+      color:#D98BB6;
+      text-shadow: 2px 2px #000;
+    }
+    
+    #articles article.post {
+      font-family:"Jersey 15 Charted", sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      width: 20%;
+      padding: 10px;
+      transition: 0.25s;
+      font-size: 0.8rem;
+      border-radius: 10px;
+      background:#8149A6;
+    }
+    
+    #articles article.post h2 {
+      font-size: 1.5em;
+      text-shadow: none;
+    }
+    
+    #articles article.post:hover {
+      box-shadow: 0 8px 16px #c0c0c0;
+      transform: scale(1.1);
+    }
+    
+    #articles article time,
+    #articles article figcaption,
+    #articles article footer {
+      font-size: 0.8em;
+      color: #8149A6;
+      text-transform: uppercase;
+    }
+    #
+    #articles .post a:link,
+    #articles .post a:visited {
+      color: #333;
+    }
+    
+    #articles .post figure {
+      margin: 0;
+    }
+    
+    #articles .post img {
+      border-radius: 10px;
+    }
+    
+    #articles ul {
+      padding: 0 20px;
+    }
+    #articles li {
+      margin-bottom: 20px;
+    }
+    #hero {
+      padding: 4em 0;
+    }
+    .img-center{
+    display:block;
+    padding-left:20px;
+    border: 1px solid #D98BB6;
+    padding: 4px;
+    margin:20px auto; 
+  } 
+  #images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:20px;
+  }
+  .img-right, .img-left{
+    border:1px solid ;
+    padding:4px;
+    margin:20px;
+  }
+  #hero p{
+    font-family:"Jersey 15 Charted", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  aside [role="complementary"]{
+    width:100%;
+    color:#fff;
+    padding: 2.5rem;
+  }
+  
+  
+  aside article.widget{
+    width:40%;
+  }
+  aside .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #071540;
+  }
+  
+  aside .widget p{
+    font-family:"Jersey 15 Charted", sans-serif;
+    font-style: italic;
+  }
+  aside .widget{
+    width: 40%;
+    color:#D98BB6;
+  }
+  
+  .widgetoverview{
+    
+    color:#D98BB6;
+    text-align: center;
+  }
+  .widgetoverview table {
+    font-family:"Jersey 15 Charted", sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-collapse: collapse;
+  }
+  
+  .widgetoverview table td {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+  }
+  
+  .widgetoverview table td:nth-child(even) {
+    text-align: right;
+  }
+  
+  #colophon h6 {
+    background: black;
+    padding: 20px;
+    margin: 0;
+    color: #D98BB6;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  #colophon a{
+    color:#D98BB6;
+  }
+  
+  /*--------------------MEDIA QUERIES--------------------*/
+  @media screen and (max-width: 600px) {
+    header.primary nav ul {
+      flex-direction: column;
+      margin: 0 auto;
+      width: 400px;
+    }
+  
+    header.primary nav ul li {
+      margin-bottom: 10px;
+      width: 400px;
+    }
+  
+    header.primary nav ul li a {
+      display: block;
+    }
+    #home{
+      font-size: 2.4rem;
+      margin-top: 340px;
+    }
+    section#articles .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #c0c0c0;
+      padding: 0 0 4em 0;
+    }
+  
+    #articles article.post {
+      width: 100%;
+      margin-bottom: 2em;
+    }
+    
+    .container .widget, .container .widgetoverview /*.aboutus , .aboutus p*/{
+      font-size:0.6rem;
+    }
+    .recentmissions{
+      font-size: 0.8rem;
+    }
+    #images{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-right: 4em;
+    }
+    #parachutesys p{
+      font-size: 1.5rem;
+    }
+    #parachutesys iframe{
+      width:400px;
+      height:auto;
+    }
+  
+  }
